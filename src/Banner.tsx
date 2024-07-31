@@ -1,4 +1,4 @@
-function Banner() {
+export function Banner() {
   return (
     <div className="flex justify-center items-center h-full">
       <div className="bg-blue-400 w-[640px] h-[380px] rounded-2xl">
@@ -32,8 +32,3 @@ function Banner() {
     </div>
   );
 }
-
-export default Banner;
-
-git config --global user.email enzog0315@gmail.com
-git config --global user.name enzoguis
