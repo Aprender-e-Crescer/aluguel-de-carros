@@ -1,13 +1,42 @@
+import { IoIosArrowDown } from 'react-icons/io'
+import Ellipse11 from './imgs/Ellipse11.svg'
+
 function App() {
   return (
-    <div className="flex flex-col gap-y-9 p-16">
-      <hr />
-      <div className="flex gap-x-16">
-        <h3 className="flex-1">
-          ©2022 MORENT. All rights reserved
-        </h3>
-        <h3>Privacy & Policy</h3>
-        <h3>Terms & Condition</h3>
+    <div className="body bg-[#F6F7F9] w-max">
+      <div className="container flex flex-col gap-3 w-424px">
+        <div className="conteudo bg-white p-4 rounded-xl shadow-xl h-min flex flex-col gap-5 w-424px">
+          <div className="pick-up flex gap-3 h-5">
+            <img src={Ellipse11} alt="" />
+            <p className="font-bold size-4 w-full text-[#1A202C]">Pick-Up</p>
+          </div>
+
+          <div className="flex flex-row gap-6">
+            <div className="locations flex flex-col gap-3 border-r border-gray-200 pr-4">
+              <p className="font-bold text-[#1A202C]">Locations</p>
+              <div className="flex gap-3 items-center">
+                <p className="text-[#90A3BF]">Select your city</p>
+                <IoIosArrowDown />
+              </div>
+            </div>
+
+            <div className="date flex flex-col gap-3 border-r border-gray-200 pr-4">
+              <p className="font-bold text-[#1A202C]">Date</p>
+              <div className="flex gap-3 items-center">
+                <p className="text-[#90A3BF]">Select your date</p>
+                <IoIosArrowDown />
+              </div>
+            </div>
+
+            <div className="time flex flex-col gap-3">
+              <p className="font-bold text-[#1A202C]">Time</p>
+              <div className="flex gap-3 items-center">
+                <p className="text-[#90A3BF]">Select your time</p>
+                <IoIosArrowDown />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
