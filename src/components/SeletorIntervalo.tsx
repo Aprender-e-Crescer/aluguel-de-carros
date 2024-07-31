@@ -1,5 +1,4 @@
 import { IoIosArrowDown } from 'react-icons/io'
-import Ellipse11 from './imgs/Ellipse11.svg'
 
 function SeletorIntervalo() {
   return (
@@ -7,8 +6,8 @@ function SeletorIntervalo() {
       <div className="container flex flex-col gap-3 w-424px">
         <div className="conteudo bg-white p-4 rounded-xl shadow-xl h-min flex flex-col gap-5 w-424px">
           <div className="pick-up flex gap-3 h-5">
-            <img src={Ellipse11} alt="" />
-            <p className="font-bold size-4 w-full text-[#1A202C]">Pick-Up</p>
+            <input type="radio" className="font-bold text-[#1A202C]"></input>
+            <p className="font-bold">Pick-Up</p>
           </div>
 
           <div className="flex flex-row gap-6">
