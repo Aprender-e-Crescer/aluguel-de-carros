@@ -5,7 +5,7 @@ import image from './img/Image.png'
 
 import { Search, SlidersHorizontal } from 'lucide-react'
 
-function Menu() {
+export function Menu() {
   return (
     <div className="flex place-items-center p-10  pl-12 mt-2 justify-between bg-[#F6F7F9] rounded-3xl shadow-2xl">
       <div className="flex flex-1 gap-20">
@@ -39,5 +39,3 @@ function Menu() {
     </div>
   )
 }
-
-export default Menu
