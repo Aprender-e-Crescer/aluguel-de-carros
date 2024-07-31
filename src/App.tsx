@@ -1,5 +1,4 @@
-import Rodape from "./components/Rodape";
-
+import { Rodape } from "./components/Rodape";
 
 export default function App() {
   return(
