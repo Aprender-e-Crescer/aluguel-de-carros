@@ -1,7 +1,7 @@
 import { IoIosArrowDown } from 'react-icons/io'
 import Ellipse11 from './imgs/Ellipse11.svg'
 
-function App() {
+function SeletorIntervalo() {
   return (
     <div className="body bg-[#F6F7F9] w-max">
       <div className="container flex flex-col gap-3 w-424px">
@@ -42,4 +42,4 @@ function App() {
   )
 }
 
-export default App
+export default SeletorIntervalo
