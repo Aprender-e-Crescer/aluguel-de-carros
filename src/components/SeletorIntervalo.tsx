@@ -1,6 +1,6 @@
 import { IoIosArrowDown } from 'react-icons/io'
 
-function SeletorIntervalo() {
+export function SeletorIntervalo() {
   return (
     <div className="body bg-[#F6F7F9] w-max">
       <div className="container flex flex-col gap-3 w-424px">
@@ -43,5 +43,3 @@ function SeletorIntervalo() {
     </div>
   )
 }
-
-export default SeletorIntervalo

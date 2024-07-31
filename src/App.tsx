@@ -1,4 +1,4 @@
-import SeletorIntervalo from './components/SeletorIntervalo'
+import { SeletorIntervalo } from './components/SeletorIntervalo'
 import { Banner } from "./Banner";
 import { Menu } from './Menu'
 
