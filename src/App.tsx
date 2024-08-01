@@ -1,13 +1,5 @@
-import { SeletorIntervalo } from './components/SeletorIntervalo'
-import { Banner } from "./Banner";
-import { Menu } from './Menu'
+import { CardCar } from "./CardCar";
 
 export default function App() {
- return (
-   <>
-     <Menu />
-     <Banner />
-     <SeletorIntervalo />
-   </>
- )
+  return <CardCar />;
 }
