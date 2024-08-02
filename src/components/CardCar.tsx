@@ -1,4 +1,4 @@
-import car from "./assets/car.jpg";
+import car from "../assets/images/car.jpg";
 import { MdOutlinePropaneTank } from "react-icons/md";
 import { TbSteeringWheel } from "react-icons/tb";
 import { IoPersonSharp } from "react-icons/io5";
