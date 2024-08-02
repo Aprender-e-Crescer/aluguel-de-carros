@@ -6,7 +6,7 @@ import { FaHeart } from "react-icons/fa6";
 
 export function CardCar() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center">
       <div className="w-[304px] h-[388px] bg-[#F6F7F9] rounded-lg shadow-md p-4 flex flex-col justify-between">
         <div className="flex justify-between items-center">
           <div>

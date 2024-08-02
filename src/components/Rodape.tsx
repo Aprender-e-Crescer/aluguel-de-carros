@@ -1,14 +1,14 @@
 export function Rodape() {
     return (
       <>
-      <section className="flex p-24 gap-16 size-full">
+      <section className="flex px-24 pt-6 gap-16">
         <div className="w-full h-48">
           <h1 className="py-4 text-[#3563E9] w-32 text-6xl">MORENT</h1>
           <p className="text-[#3e3e3e] text-xl w-72 h-4">Our vision is to provide convenience and help increase your sales business.</p>
         </div>
   
         
-          <div className="flex-col text-xl mb-24 gap-5">
+          <div className="flex-col text-xl gap-5">
             <h3 className="font-semibold  mb-8">About</h3>
             <p className=" mb-6 text-[#848484]">How it works</p>
             <p className=" mb-6 text-[#848484]">Feature</p>
@@ -34,7 +34,7 @@ export function Rodape() {
       
       
   
-        <div id='footer' className="flex flex-col gap-y-9 p-16 mt-28">
+        <div id='footer' className="flex flex-col gap-y-9 p-16 mt-8">
             <hr />
             <div className="flex gap-x-16">
               <h3 className="flex-1">
